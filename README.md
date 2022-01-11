@@ -14,6 +14,7 @@ You only need:
 - Test Simple JSON Server
 
 ### a) Clone this repo and install NodeJS modules
+🔳 terminal/cmd
 ``` bash
 git clone https://github.com/Webvelopers/simple-json-server.git
 cd simple-json-server
@@ -23,11 +24,13 @@ npm update
 ### b) Create this repo in only 3 easy steps
 
 #### 1. Install json-server with NPM
+🔳 terminal/cmd
 ``` bash
 npm install json-server
 ```
 
 #### 2. Create package.json file
+🔳 terminal/cmd
 ``` bash
 code package.json
 ```
@@ -42,11 +45,13 @@ code package.json
 ```
 
 ### Run NPM script
+🔳 terminal/cmd
 ``` bash
 npm start
 ```
 
 ### Test Simple JSON Server
+🔳 terminal/cmd
 ``` bash
 start http:localhost:3000
 ```
