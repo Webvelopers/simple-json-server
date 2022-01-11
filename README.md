@@ -51,5 +51,5 @@ npm start
 start http:localhost:3000
 ```
 
-## See official Documentacion of JSON Server (NodeJS module)
-Go to (Github Official Repo)[https://github.com/typicode/json-server]
+## Official Documentacion of JSON Server (NodeJS module)
+Go to github official repo: [JSON Server](https://github.com/typicode/json-server)
