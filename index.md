@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+# Simple JSON Server
+This project is a Simple JSON Server without need implement back-end server, only using NodeJS and [JSON Server](https://github.com/typicode/json-server) (NodeJS module)
 
-You can use the [editor on GitHub](https://github.com/Webvelopers/simple-json-server/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Project Requirements (2022-01-10):
+- NodeJS >= v14.18.0
+- NPM >= v6.14.15
+- JSON Server (NodeJS Module) >= v0.17.0
+- Visual Studio Code >= V1.63.2 (or other code editor)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Instructions:
+You only need:
+- a) Clone this repo or b) Create this project
+- Run NPM script
+- Test Simple JSON Server
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### a) Clone this repo and install NodeJS modules
+🔳 terminal/cmd
+``` bash
+git clone https://github.com/Webvelopers/simple-json-server.git
+cd simple-json-server
+npm update
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### b) Create this repo in only 3 easy steps
 
-### Jekyll Themes
+#### 1. Install json-server with NPM
+🔳 terminal/cmd
+``` bash
+npm install json-server
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Webvelopers/simple-json-server/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### 2. Create package.json file
+🔳 terminal/cmd
+``` bash
+code package.json
+```
 
-### Support or Contact
+#### 3. Copy and paste this json text
+``` json
+{
+    "scripts": {
+        "start": "json-server --watch db.json"
+    }
+}
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Run NPM script
+🔳 terminal/cmd
+``` bash
+npm start
+```
+
+### Test Simple JSON Server
+🔳 terminal/cmd
+``` bash
+start http:localhost:3000
+```
+
+## Official Documentacion of JSON Server (NodeJS module)
+Go to github official repo: [JSON Server](https://github.com/typicode/json-server)
+
+## Enjoy It!
+```
+made with ♥ by...
+    __    __
+    \/\/\/\/
+     \/\/\/
+      \/\/
+www.webvelopers.net
+```
